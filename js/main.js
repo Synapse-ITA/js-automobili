@@ -55,9 +55,9 @@ console.log('La lista delle auto generiche è:', autoGeneric);
 
 // Inserire in HTML le 3 liste (array)
 
-stampaLista(autoBenzina, 'list1')
-stampaLista(autoDiesel, 'list2')
-stampaLista(autoGeneric, 'list3')
+stampaLista(autoBenzina, 'list1');
+stampaLista(autoDiesel, 'list2');
+stampaLista(autoGeneric, 'list3');
 
 // FUNZIONE PER STAMPARE
 
