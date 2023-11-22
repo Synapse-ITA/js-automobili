@@ -23,7 +23,7 @@ let autoGeneric = [];
 
 automobili.forEach(function (automobile) {
     if (automobile.alimentazione === 'benzina') {
-        autoBenzina.push(automobile)
+        autoBenzina.push(automobile);
     } else if (automobile.alimentazione === 'diesel') {
         autoDiesel.push(automobile);
     } else {
