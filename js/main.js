@@ -59,7 +59,7 @@ stampaLista(autoBenzina, 'list1');
 stampaLista(autoDiesel, 'list2');
 stampaLista(autoGeneric, 'list3');
 
-// FUNZIONE PER STAMPARE
+// FUNZIONI
 
 function stampaLista(array, idLista) {
     let listaHtml = '';
