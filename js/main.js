@@ -65,7 +65,7 @@ function stampaLista(array, idLista) {
     let listaHtml = '';
     for (let i = 0; i < array.length; i++) {
         let auto = array[i];
-        listaHtml += `<li>${auto.marca} ${auto.modello} ${auto.alimentazione}</li>`;
+        listaHtml += `<li>${auto.marca} ${auto.modello}</li>`;
     }
     document.getElementById(idLista).innerHTML = listaHtml;
 }
